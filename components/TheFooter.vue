@@ -11,7 +11,7 @@ import moment from 'moment';
       <a
         href="/#hero"
         class="flex justify-center items-center text-3xl font-semibold text-primary hover:text-blue-300 hover:underline">
-       Sopheak HUN
+       Panha NHEB
       </a>
       <ul class="flex flex-wrap justify-center items-center mb-6 my-8">
         <li
@@ -23,7 +23,6 @@ import moment from 'moment';
             >{{ link.label }}
           </a>
         </li>
-
         <li>
           <a
             href="https://www.linkedin.com/"
@@ -38,7 +37,7 @@ import moment from 'moment';
       <a
         target="_blank"
         class="md:text-lg flex items-center justify-center hover:text-primary"
-        >© {{ moment().year() }} Portfolio Sopheak HUN
+        >© {{ moment().year() }} Portfolio Panha NHEB
         <!-- <Icon
           name="fa6-brands:github"
           class="size-5 ml-2" /> -->

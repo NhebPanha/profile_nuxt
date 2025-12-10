@@ -14,11 +14,11 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_SECTION =
-  "I’m a passionate web developer dedicated to creating efficient, responsive, and user-friendly websites. With experience in VueJS, NuxtJS, Laravel, NestJS, I strive to bring innovative ideas to life and solve real-world problems. Let’s build something amazing together!";
+  "I’m a passionate mobile app developer dedicated to creating smooth, high-performance, and user-friendly mobile experiences. With experience in Flutter, Dart, Android, and iOS development, I strive to bring innovative ideas to life and build applications that solve real-world problems. Let’s create something amazing together!";
 
 export const ABOUT_SECTION = {
   section1:
-    "I’m a web developer with experience in building efficient and scalable solutions. My focus is on delivering quality work, collaborating with teams, and constantly improving my skills.",
+    "I’m a passionate mobile app developer dedicated to creating smooth, high-performance, and user-friendly mobile experiences. With experience in Flutter, Dart, Android, and iOS development, I strive to bring innovative ideas to life and build applications that solve real-world problems. Let’s create something amazing together!",
 };
 
 export const PROJECTS = [
