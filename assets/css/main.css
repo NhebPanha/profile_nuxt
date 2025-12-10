@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 dark:bg-slate-950 text-black dark:text-gray-50 transition duration-300;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.greenShadow {
+  box-shadow: 0px 14px 55px rgba(78, 164, 221, 0.45);
+}
+
+.specialSpin {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  right: 0;
+  width: 24px;
+  height: 2px;
+  background: #4ea4dd;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-link {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+.animate-link:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.animate-link:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.animate-link:nth-child(4) {
+  animation-delay: 0.3s;
+}
