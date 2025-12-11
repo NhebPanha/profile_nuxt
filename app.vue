@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Analytics } from "@vercel/analytics/nuxt";
 useHead({
-  title: "Sopheak HUN - Portfolio | Web Developer",
+  title: "Panha NHEB - Portfolio | Web Developer",
   htmlAttrs: {
     lang: "en",
   },

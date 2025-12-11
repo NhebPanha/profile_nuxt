@@ -94,31 +94,22 @@ watchEffect(() => {
         </p>
         <div class="flex flex-col gap-4 text-xl">
           <div class="flex flex-row gap-x-6">
-            <a
-              href="https://github.com/HUN-Sopheak"
-              target="_blank"
-              class="hover:text-primary"
-              aria-label="GitHub Profile"
-            >
-              Github <Icon name="fa6-brands:github" class="size-8" />
+            <a href="https://github.com/NhebPanha" target="_blank" class="hover:text-primary"
+              aria-label="GitHub Profile">
+              Github
+              <Icon name="fa6-brands:github" class="size-8" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/sopheak-hun/"
-              target="_blank"
-              class="hover:text-primary"
-              aria-label="LinkedIn Profile"
-            >
-              Linkedin <Icon name="fa6-brands:linkedin" class="size-8" />
+            <a href="https://www.linkedin.com/in/nheb-panha-223527282/" target="_blank" class="hover:text-primary"
+              aria-label="LinkedIn Profile">
+              Linkedin
+              <Icon name="fa6-brands:linkedin" class="size-8" />
             </a>
           </div>
           <div class="flex flex-row items-center">
-            <a
-              href="mailto:sopheakhun.dev@gmail.com"
-              class="text-base md:text-lg font-bold hover:text-primary"
-            >
+            <a href="mailto:nhebpanha78@gmail.com" class="text-base md:text-lg font-bold hover:text-primary">
               <Icon name="fa6-solid:envelope" class="size-6" />
-              sopheakhun.dev@gmail.com</a
-            >
+              nhebpanha78@gmail.com
+            </a>
           </div>
         </div>
       </div>
@@ -126,54 +117,28 @@ watchEffect(() => {
       <div>
         <form class="flex flex-col" @submit.prevent="send_message">
           <div class="mb-6">
-            <label for="email" class="block mb-2 text-sm font-medium"
-              >Your email</label
-            >
-            <input
-              v-model="form.email"
-              type="email"
-              required
-              id="email"
+            <label for="email" class="block mb-2 text-sm font-medium">Your email</label>
+            <input v-model="form.email" type="email" required id="email"
               class="bg-white/10 border border-primary text-sm outline-none rounded-md block w-full p-3 focus:ring-2 ring-primary"
-              placeholder="Email"
-              name="email"
-            />
+              placeholder="Email" name="email" />
           </div>
 
           <div class="mb-6">
-            <label for="subject" class="block text-sm mb-2 font-medium"
-              >Subject</label
-            >
-            <input
-              v-model="form.subject"
-              required
-              type="text"
-              id="subject"
+            <label for="subject" class="block text-sm mb-2 font-medium">Subject</label>
+            <input v-model="form.subject" required type="text" id="subject"
               class="bg-white/10 border border-primary text-sm outline-none rounded-md block w-full p-3 focus:ring-2 ring-primary"
-              placeholder="Subject of your message"
-              name="subject"
-            />
+              placeholder="Subject of your message" name="subject" />
           </div>
 
           <div class="mb-6">
-            <label for="message" class="block text-sm mb-2 font-medium"
-              >Message</label
-            >
-            <textarea
-              v-model="form.message"
-              name="message"
-              id="message"
+            <label for="message" class="block text-sm mb-2 font-medium">Message</label>
+            <textarea v-model="form.message" name="message" id="message"
               class="bg-white/10 border border-primary text-sm outline-none rounded-md block w-full p-3 focus:ring-2 ring-primary"
-              placeholder="Let's talk about..."
-              rows="5"
-            ></textarea>
+              placeholder="Let's talk about..." rows="5"></textarea>
           </div>
 
-          <button
-            type="submit"
-            :disabled="sending"
-            class="text-slate-100 bg-primary hover:bg-blue-300 font-extrabold py-2.5 px-5 rounded-lg w-full"
-          >
+          <button type="submit" :disabled="sending"
+            class="text-slate-100 bg-primary hover:bg-blue-300 font-extrabold py-2.5 px-5 rounded-lg w-full">
             <span v-if="!sending">Send Message</span>
             <span v-else>Sending...</span>
           </button>
