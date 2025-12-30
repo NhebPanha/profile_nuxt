@@ -10,20 +10,20 @@ useHead({
 
 useSeoMeta({
   description:
-    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
-  author: "Sopheak HUN",
-  ogTitle: "Sopheak HUN - Portfolio | Web Developer",
+    "Hi! I'm Panha NHEB, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  author: "Panha NHEB",
+  ogTitle: "Panha NHEB - Portfolio | Web Developer",
   ogDescription:
-    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
-  ogImage: "https://sopheak-hun.vercel.app/hero.jpg", // Fixed URL
-  ogUrl: "https://sopheak-hun.vercel.app/",
+    "Hi! I'm Panha NHEB, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  ogImage: "https://avatars.githubusercontent.com/u/154107800?v=4", // Fixed URL
+  ogUrl: "https://avatars.githubusercontent.com/u/154107800?v=4",
   ogType: "website",
-  ogSiteName: "Sopheak HUN Portfolio", // Added og:site_name
+  ogSiteName: "Panha NHEB Portfolio", // Added og:site_name
   twitterCard: "summary_large_image",
-  twitterTitle: "Sopheak HUN - Portfolio | Web Developer",
+  twitterTitle: "Panha NHEB - Portfolio | Web Developer",
   twitterDescription:
-    "Hi! I'm Sopheak HUN, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
-  twitterImage: "https://sopheak-hun.vercel.app/hero.jpg", // Fixed URL
+    "Hi! I'm Panha NHEB, a passionate Web Developer specializing in creating modern, responsive, and user-friendly websites.",
+  twitterImage: "https://avatars.githubusercontent.com/u/154107800?v=4", // Fixed URL
 });
 </script>
 

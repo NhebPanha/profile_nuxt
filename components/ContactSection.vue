@@ -17,7 +17,6 @@ const successMessage = ref("");
 const errorMessage = ref("");
 const sending = ref(false);
 
-
 function validate(data: Form) {
   if (!data.email || !data.subject || !data.message) {
     return "Please fill in all required fields.";

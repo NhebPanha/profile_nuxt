@@ -24,7 +24,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   headerEl = null
 })
-
 /**
  * Smooth scroll to an anchor or pixel position.
  * - If href starts with '#' -> treat as in-page anchor and scroll to it.

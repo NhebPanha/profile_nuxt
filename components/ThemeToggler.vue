@@ -4,7 +4,6 @@ const colorMode = useColorMode()
 const changeColor = () =>
   (colorMode.preference = colorMode.value === 'light' ? 'dark' : 'light')
 </script>
-
 <template>
   <button aria-label="Color Mode" class="md:mr-4 mr-12" @click="changeColor">
     <Icon v-show="colorMode.value === 'light'" name="heroicons-outline:moon"
